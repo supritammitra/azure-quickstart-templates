@@ -58,11 +58,11 @@
     {
       "type": "Microsoft.Sql/servers",
       "apiVersion": "2020-02-02-preview",
-      "name": "[parameters('sqlServerName')]",
+      "name": "[parameters('Test')]",
       "location": "[parameters('location')]",
       "properties": {
-        "administratorLogin": "[parameters('sqlAdministratorLogin')]",
-        "administratorLoginPassword": "[parameters('sqlAdministratorPassword')]",
+        "administratorLogin": "[parameters('sqltest')]",
+        "administratorLoginPassword": "[parameters('sqltest')]",
         "version": "12.0"
       },
       "resources": [
